@@ -5,14 +5,17 @@
   align-items: center;
   height: 80px;
 }
-
+.header__nav {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+}
 .header__links-container {
   display: flex;
   list-style: none;
   gap: 40px;
   margin: 0;
   padding: 0;
-  margin-left: 50%;
 }
 
 .header__li {

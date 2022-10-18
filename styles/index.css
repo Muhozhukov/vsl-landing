@@ -3,6 +3,10 @@
 @import url('./heading.css');
 @import url('./description.css');
 @import url('./qualities.css');
+@import url("./works.css");
+@import url("./projects.css");
+@import url("./footer.css");
+@import url("./feedback.css");
 
 body, div, h1, h2, h3, h4, p {
   margin: 0;
@@ -10,6 +14,7 @@ body, div, h1, h2, h3, h4, p {
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 .body {
   width: 100%;
