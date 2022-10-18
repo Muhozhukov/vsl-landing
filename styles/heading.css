@@ -3,10 +3,6 @@
   flex-direction: column;
   min-height: 900px;
   width: 100%;
-  background-image: url('../../images/titleImg.png');
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .heading__container {
   display: flex;
