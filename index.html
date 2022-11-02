@@ -6,29 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VSL - виртслайф</title>
   <link rel="stylesheet" href="./styles/index.css">
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon.ico" />
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon.ico">
 </head>
 <body class="body">
-  <main>
+  <main id="main">
     <section class="heading">
       <header class="header">
+        <img class="header__logo" src="./images/logo.png" alt="VSL">
         <nav class="header__nav">
           <ul class="header__links-container">
             <li class="header__li">
-              <a class="header__link" href="#">Главная</a>
+              <a class="header__link" href="#main">Главная</a>
             </li>
             <li class="header__li">
-              <a class="header__link" href="#">Наши проекты</a>
+              <a class="header__link" href="#description">О нас</a>
             </li>
             <li class="header__li">
-              <a class="header__link" href="#">Услуги</a>
+              <a class="header__link" href="#projects">Наши проекты</a>
             </li>
             <li class="header__li">
-              <a class="header__link" href="#">Новости</a>
+              <a class="header__link" href="#works">Услуги</a>
             </li>
             <li class="header__li">
-              <a class="header__link" href="#">Контакты</a>
+              <a class="header__link" href="#feedback">Новости</a>
+            </li>
+            <li class="header__li">
+              <a class="header__link" href="#footer">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -36,14 +40,14 @@
       <hr class="hr">
       <div class="heading__container">
         <p class="heading__title">Передовая IT студия</p>
-        <h1 class="heading__description">Мы создаем легкие решения сложных задач и проблем</h1>
+        <h1 class="heading__description">Мы создаем легкие решения сложных задач</h1>
         <button class="button">Наши проекты</button>
       </div>
     </section>
-    <section class="description">
+    <section id="description" class="description">
       <div class="description__title-container">
-        <h2 class="description__title">Мы создаем мобильные приложения для крупных корпораций</h2>
-        <p class="description__definition">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+        <h2 class="description__title">Мы создаем сервисы для удобной и комфортной работы</h2>
+        <p class="description__definition">Мы оцифровываем производственные процессы, делая их удобными для использования и контроля на Вашем производстве</p>
       </div>
       <ul class="description__services">
         <li class="description__service">
@@ -54,46 +58,44 @@
               </div>
             </div>
             <div class="description__service-definition">
-              <h4 class="description__service-title">Создание сайтов</h4>
+              <h4 class="description__service-title">Платформа для управления производством</h4>
               <p class="description__service-text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
             </div>
           <!-- </div> -->
+        </li>
+        <!-- <li class="description__service">
+          <div class="description__image-circle description__image-circle_big">
+            <div class="description__image-circle description__image-circle_small">
+              <img class="description__image" src="./images/descriptionImg.svg" alt="Создание сайтов">
+            </div>
+          </div>
+          <div class="description__service-definition">
+            <h4 class="description__service-title">Создание сайтов</h4>
+            <p class="description__service-text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+          </div>
         </li>
         <li class="description__service">
-          <!-- <div class="description__service-container"> -->
-            <div class="description__image-circle description__image-circle_big">
-              <div class="description__image-circle description__image-circle_small">
-                <img class="description__image" src="./images/descriptionImg.svg" alt="Создание сайтов">
-              </div>
+          <div class="description__image-circle description__image-circle_big">
+            <div class="description__image-circle description__image-circle_small">
+              <img class="description__image" src="./images/descriptionImg.svg" alt="Создание сайтов">
             </div>
-            <div class="description__service-definition">
-              <h4 class="description__service-title">Создание сайтов</h4>
-              <p class="description__service-text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
-            </div>
-          <!-- </div> -->
-        </li>
-        <li class="description__service">
-          <!-- <div class="description__service-container"> -->
-            <div class="description__image-circle description__image-circle_big">
-              <div class="description__image-circle description__image-circle_small">
-                <img class="description__image" src="./images/descriptionImg.svg" alt="Создание сайтов">
-              </div>
-            </div>
-            <div class="description__service-definition">
-              <h4 class="description__service-title">Создание сайтов</h4>
-              <p class="description__service-text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
-            </div>
-          <!-- </div> -->
-        </li>
+          </div>
+          <div class="description__service-definition">
+            <h4 class="description__service-title">Создание сайтов</h4>
+            <p class="description__service-text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+          </div>
+        </li> -->
       </ul>
       <button class="button">Все услуги</button>
     </section>
-    <section class="qualities">
+    <section id="projects" class="qualities">
       <div class="qualities__container">
         <div class="qualities__description-container">
           <div class="qualities__description">
             <h2 class="qualities__title">Высокие стандарты разработки</h2>
-            <p class="qualities__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+            <p class="qualities__text">В процессе разработки мы учитываем множество факторов,
+              которые могут повлиять на дальнейшие рабочие процессы,
+              что позволяет создать стабильно работающий продукт</p>
             <a class="link">Подробнее о компании</a>
           </div>
           <img class="qualities__image" src="./images/qualityImg.png" alt="Наши достижения">
@@ -107,7 +109,7 @@
             </div>
             <p class="qualities__quality-text">Our projects</p>
           </li>
-          <li class="qualities__quality">
+          <!-- <li class="qualities__quality">
             <div class="qualities__quality-container">
               <img class="qualities__quality-image" src="./images/quality.svg" alt="image">
               <h4 class="qualities__quality-title">125</h4>
@@ -134,11 +136,11 @@
               <h4 class="qualities__quality-title">125</h4>
             </div>
             <p class="qualities__quality-text">Our projects</p>
-          </li>
+          </li> -->
         </ul>
       </div>
     </section>
-    <section class="works">
+    <section id="works" class="works">
       <div class="works__container">
         <div class="works__title-container">
           <h2 class="works__title">Наши работы, на которых мы специализируемся</h2>
@@ -146,6 +148,14 @@
         </div>
         <ul class="works__list">
           <li class="works__item">
+            <img class="works__item-img" src="./images/img-work.png" alt="Работа №2">
+            <div class="works__item-description">
+              <h4 class="works__item-title">01. Платформа для производства</h4>
+              <p class="works__item-text">Решение, которое позволяет отслеживать все этапы производственного процесса</p>
+              <a class="link">Подробнее о компании</a>
+            </div>
+          </li>
+          <!-- <li class="works__item">
             <img class="works__item-img" src="./images/titleImg.png" alr="Работа №2">
             <div class="works__item-description">
               <h4 class="works__item-title">01. Исследование и упаковка</h4>
@@ -160,15 +170,7 @@
               <p class="works__item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
               <a class="link">Подробнее о компании</a>
             </div>
-          </li>
-          <li class="works__item">
-            <img class="works__item-img" src="./images/titleImg.png" alr="Работа №2">
-            <div class="works__item-description">
-              <h4 class="works__item-title">01. Исследование и упаковка</h4>
-              <p class="works__item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-              <a class="link">Подробнее о компании</a>
-            </div>
-          </li>
+          </li> -->
         </ul>
         <hr class="break">
       </div>
@@ -181,6 +183,9 @@
         </div>
         <ul class="projects__list">
           <li class="projects__item">
+            <img class="projects__item-img" src="./images/img-project.png" alt="Проект №1">
+          </li>
+          <!-- <li class="projects__item">
             <img class="projects__item-img" src="./images/projectsImg.png" alt="Проект №1">
           </li>
           <li class="projects__item">
@@ -188,15 +193,12 @@
           </li>
           <li class="projects__item">
             <img class="projects__item-img" src="./images/projectsImg.png" alt="Проект №1">
-          </li>
-          <li class="projects__item">
-            <img class="projects__item-img" src="./images/projectsImg.png" alt="Проект №1">
-          </li>
+          </li> -->
         </ul>
         <button class="button">Все проекты</button>
       </div>
     </section>
-    <section class="feedback">
+    <section id="feedback" class="feedback">
       <div class="feedback__container">
         <div class="feedback__title-container">
           <h3 class="feedback__title">Подпишитесь на нашу рассылку</h3>
@@ -206,10 +208,10 @@
           <input class="feedback__input" type="email" placeholder="Ваш e-mail" required>
           <button class="feedback__button">Подписаться</button>
         </form>
-        <p class="feedback__description-text">Мы не шлем спам, и передаем никому ваши данные.</p>
+        <!-- <p class="feedback__description-text">Мы не шлем спам, и передаем никому ваши данные.</p> -->
       </div>
     </section>
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="footer__container">
         <ul class="footer__links">
           <li class="footer__link-nav">
@@ -221,11 +223,11 @@
               </li>
               <li class="footer__links-item">
                 <img class="footer__links-img" src="./images/phoneIcon.svg" alt="Телефон">
-                <a class="footer__link" href="tel:+7 777 555 66 99">+8 777 555 66 99</a>
+                <a class="footer__link" href="tel:89101092787">+8 910 109 27 87</a>
               </li>
               <li class="footer__links-item">
                 <img class="footer__links-img" src="./images/mapIcon.svg" alt="Геопозиция">
-                <a class="footer__link">Москва, Бульвар Ленина 33</a>
+                <a class="footer__link">Нижний Новгород, ул. Федосеенко 39</a>
               </li>
             </ul>
           </li>
@@ -234,19 +236,19 @@
             <ul class="footer__links-list">
               <li class="footer__links-item">
                 <img class="footer__links-img" src="./images/arrow.svg" alt="Информация">
-                <a class="footer__link">Главная</a>
+                <a class="footer__link" href="#main">Главная</a>
               </li>
               <li class="footer__links-item">
                 <img class="footer__links-img" src="./images/arrow.svg" alt="Информация">
-                <a class="footer__link">Наши проекты</a>
+                <a class="footer__link" href="#projects">Наши проекты</a>
               </li>
               <li class="footer__links-item">
                 <img class="footer__links-img" src="./images/arrow.svg" alt="Информация">
-                <a class="footer__link">Наши услуги</a>
+                <a class="footer__link" href="#works">Наши услуги</a>
               </li>
               <li class="footer__links-item">
                 <img class="footer__links-img" src="./images/arrow.svg" alt="Информация">
-                <a class="footer__link">Контакты</a>
+                <a class="footer__link" href="#footer">Контакты</a>
               </li>
             </ul>
           </li>
@@ -294,5 +296,6 @@
       </div>
     </footer>
   </main>
+  <script src="./index.js"></script>
 </body>
 </html>
